@@ -22,12 +22,9 @@ The primary goal is to help the Corner Grocer rearrange their produce section ba
 
 ---
 
-## Next Steps
+## What did you do particularly well?
+I followed the specified guidelines for the program to the best of my ability. Although the program isn't fully operational, it can serve as a solid foundation for future improvements.
 
-1. **Gather Requirements**: Meet with the Corner Grocer to finalize the specific functionalities they need.
-2. **Design the Program**: Outline the architecture and design of the item-tracking program.
-3. **Implementation**: Start coding the program based on the agreed-upon requirements.
-4. **Testing**: Ensure the program works as intended and meets all requirements.
-5. **Deployment**: Deliver the final product to the Instructor.
-
+## Where could you enhance your code? How would these improvements make your code more efficient, secure, and so on?
+Fixing the broken functionality of Menu Option One would likely enhance the security of my code, as I currently don't understand why the program fails to return the appropriate value. Additionally, I encountered an unknown error when writing to a file or printing to the console. Instead of displaying the correct output, the program would sometimes write into itself. For example, if the expected output was "Apple 4," I would get something like "4pple" instead. To resolve this issue, I ensured that each line ended properly after writing a single string.
 
