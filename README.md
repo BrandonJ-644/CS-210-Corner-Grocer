@@ -33,3 +33,12 @@ I found printing to the console and writing to files to be the most challenging 
 
 The second challenge I faced was returning the correct value for Menu Item One. This part of the program was supposed to allow the user to find out the exact amount of any fruit in the system at any given time. For example, if the user wanted to know how many apples were in the system, they would input "Apple," and the output should be "There are 4 apples." However, the output I received was "There are 0 apples." Unfortunately, I wasn't able to resolve this issue or the printing problems.(which include writing to files). 
 
+### What skills from this project will be particularly transferable to other projects or course work?
+This course has allowed me to practice writting in C++. I've learned OOP in C++ and many of the functions from the standard library. All of this will help me in future projects even outside of C++.
+
+### How did you make this program maintainable, readable, and adaptable?
+First, I want to express my appreciation for the freedom given to me during these projects. I was able to create any classes I felt were necessary, along with appropriate function names and definitions. This opportunity allowed me to practice properly naming variables, classes, and functions while also opting out of any work I deemed unnecessary. However, I admit that some of my code isn't properly named.
+
+To maintain the code, I created a class called MenuOptions. This decision allowed me to separate function definitions and variables from my main file, effectively breaking my code down into three main segments: file handling, menu printing, and choice handling. After establishing this "blueprint," I focused on working within these segments as much as possible to regulate the code.
+
+When creating the functions for MenuOptions, I aimed to encapsulate most of the menu's functionality within the class. This significantly reduced the amount of code visible within the switch statement in the main function.
